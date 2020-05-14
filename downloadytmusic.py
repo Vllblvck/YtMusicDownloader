@@ -7,7 +7,7 @@ except ImportError:
     print("You are lacking dependecies for the script")
 
 
-DOWNLOADS_PATH = "/home/vllblvck/Music/"
+DOWNLOADS_PATH = "path/to/music/folder"
 
 def mp3_to_mp4(songname_mp4, songname_mp3):
     print("Converting from mp4 to mp3...")
